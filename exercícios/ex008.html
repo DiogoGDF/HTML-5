@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+    Crie um documento HTML que exiba o seguinte título:
+        "My Favorite Movies"
+    Abaixo do título, crie uma tabela com três colunas. Na primeira coluna, liste o título de três dos seus filmes favoritos. Na segunda coluna, liste o ano em que cada filme foi lançado. Na terceira coluna, liste uma breve descrição do enredo do filme.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus filmes favoritos</title>
+    <style>
+       table {
+           border-collapse: collapse;
+           width: 50%;
+       }
+
+       th, td {
+           border: 1px solid black;
+           padding: 8px;
+           text-align: left;
+       }
+
+       th {
+           background-color: gray;
+           color: white;
+       }
+
+       tr:nth-child(even) {
+           background-color: #f2f2f2;
+       }
+
+       tr:hover {
+           background-color: #ddd;
+       }
+    </style>   
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Título</th>
+            <th>Ano de lançamento</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>Rush</td>
+            <td>2013</td>
+            <td>O mundo sexy e glamouroso da Fórmula 1 é mobilizado principalmente pela rivalidade existente entre os pilotos Niki Lauda e James Hunt nos anos 1970. Eles possuíam características bem distintas: enquanto Lauda era metódico e brilhante, Hunt adotava um estilo mais despojado, típico de um playboy.</td>
+        </tr>
+        <tr>
+            <td>Akira</td>
+            <td>1991</td>
+            <td>Uma grande explosão fez com que Tóquio fosse destruída em 1988. Em seu lugar foi construída Neo Tóquio, que, em 2019, sofre com atentados terroristas por toda a cidade. Os amigos Kaneda e Tetsuo integram uma gangue de motoqueiros. Eles disputam rachas violentos com uma gangue rival, os Palhaços, até que um dia Tetsuo encontra Takashi, uma estranha criança com poderes que fugiu do hospital onde era mantido como cobaia.</td>
+        </tr>
+        <tr>
+            <td>Mad Max: Fury Road</td>
+            <td>2015</td>
+            <td>Em um mundo pós-apocalíptico, Max Rockatansky acredita que a melhor forma de sobreviver é não depender de ninguém. Porém, após ser capturado pelo tirano Immortan Joe e seus rebeldes, Max se vê no meio de uma guerra mortal iniciada pela Imperatriz Furiosa, que tenta salvar um grupo de garotas. Também tentando fugir, Max aceita ajudá-la.</td>
+        </tr>
+    </table>
+</body>
+</html>
