@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <!--
+    <video src="video_exemplo_menor.mp4" controls></video>
+    <video src="video_exemplo_menor.ogv" autoplay loop></video>
+    -->
+    <video autoplay loop>
+        <source src="video_exemplo_menor.mp4" type="video/mp4">
+        <source src="video_exemplo_menor.ogv" type="video/ogg">
+        <p>Erro ao carregar vídeo</p>
+    </video>
+
+</body>
+</html>
