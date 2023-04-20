@@ -2,7 +2,7 @@ body{
     text-align: center;
     border: 3px solid #121212;
     margin: 0;
-    min-height: 100vh;
+    min-height: 99vh;
 }
 
 h1{
@@ -42,4 +42,8 @@ button{
     width: 250px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
