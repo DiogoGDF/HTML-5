@@ -62,4 +62,16 @@ h1, h2, h3, h4, p {
     background-size: cover;
     margin-bottom: 20px;
 }
+#firstGift:hover{
+    background-image: url(images/happy.gif);
+}
 
+#secondGift:hover{
+    background-image: url(images/hot.gif);
+}
+#thirdGift:hover{
+    background-image: url(images/genius.gif);
+}
+#fourthGift:hover{
+    background-image: url(images/badass.gif);
+}
