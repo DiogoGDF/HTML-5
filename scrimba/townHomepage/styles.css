@@ -14,9 +14,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, h2{
+    color: white;
+    border-radius: 10px;
+    margin: 8px auto;
+}
+
 img {
     width: 100px;
+    border-radius: 50%;
 }
+
+/* hero section */
 
 #hero{
     background-image: url(images/torshov.jpg);
@@ -26,12 +35,7 @@ img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-h1, h2{
-    color: white;
-    border-radius: 10px;
-    margin: 8px auto;
+    margin: 0;
 }
 
 #title{
@@ -44,3 +48,26 @@ h1, h2{
     font-size: 18.72px;
     padding: 8px 30px;
 }
+
+/* activities section */
+
+#activities{
+    margin: 0;
+    padding: 20px 0;
+    background-color: #F1FAEE;
+    background-size: cover;
+    box-sizing: border-box;
+    color: #1D3557;
+}
+
+#activities-el{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.activitie{
+    width: 200px;
+}
+
+/* guide section */
