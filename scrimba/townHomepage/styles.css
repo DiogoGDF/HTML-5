@@ -71,3 +71,20 @@ img {
 }
 
 /* guide section */
+#guide{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    background-color: #A8DADC;
+    border-radius: 10px;
+    padding: 20px 10px;
+    border-bottom: 7px solid #1D3557;
+    width: 400px;
+}
+#per{
+    border-radius: 10px;
+    width: 180px;
+}
+#guide-info{
+    width: 200px;
+}
