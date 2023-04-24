@@ -22,7 +22,6 @@ img {
     background-image: url(images/torshov.jpg);
     background-size: cover;
     height: 345px;
-    margin: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,12 +31,12 @@ img {
 h1, h2{
     color: white;
     border-radius: 10px;
-    padding: 6px 12px;
+    margin: 8px auto;
 }
 
 #title{
     background-color: #1D3557;
-    padding: ;
+    padding: 6px 12px;
 }
 #subtitle{
     background-color: #457B9D;
